@@ -21,6 +21,10 @@ from pdf2image import convert_from_path
 from PIL import Image
 import cv2
 import numpy as np
+from dotenv import load_dotenv
+import os
+
+load_dotenv()
 
 pytesseract.pytesseract.tesseract_cmd = r"C:\Program Files\Tesseract-OCR\tesseract.exe"
 

@@ -12,6 +12,10 @@ from flask_cors import CORS
 import psycopg2
 from werkzeug.security import generate_password_hash, check_password_hash
 from supabase import create_client, Client
+from dotenv import load_dotenv
+import os
+
+load_dotenv()
 
 # ── Import ALL RAG functions from the unified engine module ───────
 from final_infera import (
