@@ -114,7 +114,7 @@ def _active_sess(store):
 # ================================================================
 @app.route("/")
 def index():
-    return send_from_directory(".", "corrected_final_frontend.html")
+    return send_from_directory(".", "final_frontend.html")
 
 
 @app.route('/api/login', methods=['POST'])
