@@ -1,0 +1,16 @@
+# Allow only these
+!final_app_flask.py
+!final_infera.py
+!final_frontend.html
+!.gitignore
+
+# Ignore secrets
+.env
+
+# Ignore uploads / large files
+uploads/
+*.mp4
+*.mp3
+*.wav
+*.pdf
+*.exe
