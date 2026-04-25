@@ -1,10 +1,3 @@
-"""
-Infera — Corrected Unified Flask API Server
-Bridges the unified RAG engine (corrected_final_infera.py) with the HTML/CSS frontend.
-Merges Branch 1 (Lakshya), Branch 2 (Bhavya), and Branch 3 (Shuvajit).
-All Branch 1 features (auth, incognito, rename/delete, confluence) preserved.
-"""
-
 import uuid, os, json, tempfile
 from pathlib import Path
 from flask import Flask, request, jsonify, send_from_directory, session
