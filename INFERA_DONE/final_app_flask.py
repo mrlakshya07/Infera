@@ -10,7 +10,7 @@ import os
 
 load_dotenv()
 
-# ── Import ALL RAG functions from the unified engine module ───────
+# ── Import ALL RAG functions from the unified engine module ──────
 from final_infera import (
     # Session helpers
     new_session, silent_ingest, MAX_FILE_SIZE_MB,
