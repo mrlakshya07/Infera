@@ -39,23 +39,18 @@ Infera is an advanced AI research engine that:
 ---
 
 ## 🏗️ Architecture Overview
-User Query
-↓
-Planning Agent
-↓
-Retrieval System
-├── Normal Mode
-└── Thinking Mode
-↓
-Hybrid Retrieval (FAISS + BM25)
-↓
-Reranking + MMR
-↓
-LLM Response
-↓
-Validation + Confidence
-↓
-Final Answer
+```mermaid
+graph TD
+A[User Query] --> B[Planning Agent]
+B --> C[Retrieval System]
+C --> D[Normal Mode]
+C --> E[Thinking Mode]
+E --> F[Hybrid Retrieval]
+F --> G[Reranking + MMR]
+G --> H[LLM Response]
+H --> I[Validation + Confidence]
+I --> J[Final Answer]
+```
 
 ---
 
